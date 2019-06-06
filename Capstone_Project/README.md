@@ -1,3 +1,5 @@
+# Predicting Employee Turnover
+
 ### Introduction 
 
 **Employee turnover**, or **staff turnover**, is a measurement of how many employees are leaving a company. It’s a way to track whether a company has more employees leaving than is typically expected. This includes employees that either quit, were let go, or retired. However, companies that measure their employee turnover often separate these to manage each type of turnover.
@@ -7,7 +9,13 @@ It is very costly for organizations, where costs include but not limited to: sep
 Thus, every organization should strive to retain their employees for as long as possible. If they see a uptick in employee turnover, then they should take action to reduce turnover and improve retention. This results in more efficient operations, higher morale, and higher profits.
 
 --- 
+## Objectives
 
+
+- To be able to accurately predict employee turnover 
+- To determine what are the features that best predict turnover.
+
+---
 ## The Data
 In this notebook we will use a simulated HR data from [kaggle](https://www.kaggle.com/liujiaqi/hr-comma-sepcsv) to build a classifier that helps us predict what kind of employees would likely to leave based on given attributes.  These classifiers will help an organization predict employee turnover and will enable them to become pro-active in helping to address this ongoing problem.
 
@@ -23,15 +31,7 @@ The data has 14,999 examples (samples). Below are the features and the definitio
 - **sales**: Department the employee works for.
 - **salary**: Relative level of salary {low, medium, high}.
 
-Let's first load all the packages.
-
 ---
 
-## Objectives
 
-
-- To be able to accurately predict employee turnover 
-- To determine what are the features that best predict turnover.
-
----
 
